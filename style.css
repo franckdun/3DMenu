@@ -12,7 +12,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #434750;
+    background: #100a1c;
+    background-image:
+        radial-gradient(50% 30% ellipse at center top, #14af99 0%, rgba(0, 0, 0, 0) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #a814a8 0%, #6646a8 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
 
 }
 
